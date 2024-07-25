@@ -1,0 +1,25 @@
+/* Common styles */
+.ad-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.ad-slide {
+    display: none; /* Hide all slides by default */
+    width: 100%;
+    text-align: center;
+    background-color: #ddd;
+}
+
+/* Style for specific ad containers if needed */
+.header-ad, .top-content-ad, .in-content-ad, .sidebar-ad, .footer-ad {
+    height: auto; /* Adjust based on ad size */
+}
+
+/* Make sure the active slide is visible */
+.ad-slide:first-child {
+    display: block;
+}
+
